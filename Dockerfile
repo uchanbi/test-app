@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD airports-assembly* airports-assembly.jar
+ADD hellow*.jar* hellow.jar
 EXPOSE 8080
-CMD java -jar airports-assembly.jar
+CMD java -jar hellow.jar
